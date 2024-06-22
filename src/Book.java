@@ -37,7 +37,7 @@ public class Book extends LibraryItem implements Readable,Printable{
                 "\nPrice: " + price +
                 "\nISBN: " + isbn +
                 "\nReading method: " + read() +
-                "\nCatalogue: " + catalogueItem() + "\"" + "\n";
+                "\nCatalogue: \"" + catalogueItem() + "\"" + "\n";
     }
 
     @Override

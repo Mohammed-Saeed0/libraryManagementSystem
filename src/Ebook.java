@@ -36,7 +36,7 @@ public class Ebook extends Book{
                 "\nFile size: " + fileSize +
                 "\nDownload URL: " + downloadUrl +
                 "\nReading method: " + read() +
-                "\nCatalogue: " + catalogueItem() + "\"" + "\n";
+                "\nCatalogue: \"" + catalogueItem() + "\"" + "\n";
     }
     @Override
     public String read() {

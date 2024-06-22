@@ -29,7 +29,7 @@ public class Magazine extends LibraryItem implements Readable,Printable{
                 "\nPrice: " + price +
                 "\nIssue Number: " + issueNumber +
                 "\nReading method: " + read() +
-                "\nCatalogue: " + catalogueItem() + "\"" + "\n";
+                "\nCatalogue: \"" + catalogueItem() + "\"" + "\n";
 
     }
 
